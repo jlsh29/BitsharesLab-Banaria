@@ -92,61 +92,115 @@ button:hover {
 }
 
 .main-box {
+  width: 1155px;
+  height: 550px;
+  margin: 35px 200px;
   display: grid;
-  background-color: aqua;
-  margin: 50px 200px;
-  grid-template-columns: 300px 1fr;
-  column-gap: 20px;
-  height: 500px;
+  grid-template-columns: 400px 750px;
+  column-gap: 10px;
+  row-gap: 10px;
 }
 
-.left-side {
-  width: 100%;
-  height: 100%;
-  background-color: azure;
+.image-left {
+  padding-top: 10px;
+  position: relative;
+}
+
+.image-right {
+  display: grid;
+  position: relative;
+}
+
+.image-right-bottom {
+  position: relative;
 }
 
 .pic {
-  width: 100%;
-  height: 100%;
+  width: 400px;
+  height: 550px;
+  border-radius: 30px;
 }
 
-.right-side {
-  width: 100%;
-  height: 100%;
-  background-color: palegreen;
-}
-
-.right-side .upper{
-  width: 100%;
-  height: 50%;
-  background-color: blanchedalmond;
-}
-
-.pic2{
-  width: 90%;
-  height: 90%;
-}
-
-.right-side .lower {
-  background-color: aliceblue;
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  height: 50%;
-}
-
-.lower-left {
-  width: 100%;
-  background-color: pink;
-}
-
-.lower-right {
-  width: 100%;
-  background-color: blue;
+.pic2 {
+  width: 750px;
+  height: 275px;
+  border-radius: 30px;
 }
 
 .pic3, .pic4 {
-  width: 50%;
-  height: 50%;
+  width: 373px;
+  height: 270px;
+  border-radius: 30px;
 }
 
+.cat1 {
+  position: absolute;
+  right: 10px;
+  top: 5px;
+  font-size: 35px;
+  font-weight: bold;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  color: 	#5e350b;
+}
+
+.cat1-readmore {
+  position: absolute;
+  right: 10px;
+  top: 80px;
+  color: 	#5e350b;
+  font-weight: bold;
+}
+
+.cat2 {
+  position: absolute;
+  right: 10px;
+  top: 5px;
+  font-size: 35px;
+  font-weight: bold;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  color: 		#f4e5bb;
+}
+
+.cat2-readmore {
+  position: absolute;
+  right: 10px;
+  top: 80px;
+  color: 		#f4e5bb;
+  font-weight: bold;
+}
+
+.cat3 {
+  position: absolute;
+  left: 10px;
+  top: 5px;
+  font-size: 35px;
+  font-weight: bold;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  color: 		#5e350b;
+}
+
+.cat3-readmore {
+  position: absolute;
+  left: 10px;
+  top: 80px;
+  color: 		#5e350b;
+  font-weight: bold;
+}
+
+.cat4 {
+  position: absolute;
+  right: 10px;
+  top: 5px;
+  font-size: 35px;
+  font-weight: bold;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  color: 	#d5b38f;
+}
+
+.cat4-readmore {
+  position: absolute;
+  right: 10px;
+  top: 80px;
+  color: 	#d5b38f;
+  font-weight: bold;
+}

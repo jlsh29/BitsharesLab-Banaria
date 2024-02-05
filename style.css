@@ -1,0 +1,152 @@
+body {
+  margin: 0;
+  margin: auto;
+}
+nav {
+  background-color: #FAEED1;
+  padding: 20px;
+  padding: auto;
+  border-radius: 10px;
+}
+
+.tagname {
+  margin-right: 200px;
+  margin-left: 20px;
+  font-size: 30px;
+  text-decoration: none;
+  color: #776B5D;
+  font-weight: bold;
+  font-family: 'Courier New', Courier, monospace;
+}
+
+a {
+  text-decoration: none;
+  margin: auto;
+  margin-right: 10px;
+}
+
+.home {
+  color: #776B5D;
+  font-weight: bold;
+  font-family: 'Courier New', Courier, monospace;
+  margin-right: 20px;
+}
+
+.shop {
+  color: #776B5D;
+  background-color: #FAEED1;
+  border: 0;
+  font-size: 15px;
+  font-weight: bold;
+  font-family: 'Courier New', Courier, monospace;
+  margin-right: 20px;
+}
+
+.about {
+  color: #776B5D;
+  font-weight: bold;
+  font-family: 'Courier New', Courier, monospace;
+  margin-right: 20px;
+}
+
+.blog {
+  color: #776B5D;
+  font-weight: bold;
+  font-family: 'Courier New', Courier, monospace;
+  margin-right: 20px;
+}
+
+.contact {
+  color: #776B5D;
+  font-weight: bold;
+  font-family: 'Courier New', Courier, monospace;
+  margin-right: 20px;
+}
+
+.page {
+  color: #776B5D;
+  font-weight: bold;
+  font-family: 'Courier New', Courier, monospace;
+  margin-right: 550px;
+}
+
+.login {
+  color: #776B5D;
+  background-color: #FAEED1;
+  border: none;
+  font-weight: bold;
+  font-family: 'Courier New', Courier, monospace;
+}
+
+button:hover {
+  background-color: #776B5D;
+  color: #FAEED1;
+}
+
+.register {
+  color: #776B5D;
+  background-color: #FAEED1;
+  border: none;
+  font-weight: bold;
+  font-family: 'Courier New', Courier, monospace;
+}
+
+.main-box {
+  display: grid;
+  background-color: aqua;
+  margin: 50px 200px;
+  grid-template-columns: 300px 1fr;
+  column-gap: 20px;
+  height: 500px;
+}
+
+.left-side {
+  width: 100%;
+  height: 100%;
+  background-color: azure;
+}
+
+.pic {
+  width: 100%;
+  height: 100%;
+}
+
+.right-side {
+  width: 100%;
+  height: 100%;
+  background-color: palegreen;
+}
+
+.right-side .upper{
+  width: 100%;
+  height: 50%;
+  background-color: blanchedalmond;
+}
+
+.pic2{
+  width: 90%;
+  height: 90%;
+}
+
+.right-side .lower {
+  background-color: aliceblue;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  height: 50%;
+}
+
+.lower-left {
+  width: 100%;
+  background-color: pink;
+}
+
+.lower-right {
+  width: 100%;
+  background-color: blue;
+}
+
+.pic3, .pic4 {
+  width: 50%;
+  height: 50%;
+}
+

@@ -55,6 +55,10 @@ a {
   padding: 5px 10px;
 }
 
+.shop {
+  color: #776B5D;
+}
+
 button:hover {
   background-color: #776B5D;
   color: #FAEED1;

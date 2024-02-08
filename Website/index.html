@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>LoveCats</title>
+  <link rel="stylesheet" href="output.css">
+  <style>
+    @media screen and (max-width: 600px) {
+    .main-box {
+      grid-template-columns: 1fr;
+      width: 100%;
+      height: auto;
+  }
+}
+  </style>
+</head>
+
+<body>
+  <div class="header bg-[#FAEED1] p-5 md:p-3 grid grid-cols-3 w-[100%]">
+    <div class="header-tagname justify-self-start md:justify-center">
+      <a href="#" class="tagname text-3xl font-bold text-[#776B5D] hidden sm:block">LoveCats</a>
+    </div> 
+    <div class="header-option justify-center items-center flex md:justify-center md:mt-3 ">
+      <a href="#" class="home   ml-5 text-[#776B5D] text-[15px] font-bold md:mx-2">Home</a>
+      <a href="#" class="about  ml-5 text-[#776B5D] text-[15px] font-bold md:mx-2">About</a>
+      <a href="#" class="blog   ml-5 text-[#776B5D] text-[15px] font-bold md:mx-2">Blog</a>
+      <a href="#" class="conta  ml-5 text-[#776B5D] text-[15px] font-bold md:mx-2">Contact</a>
+      <a href="#" class="page   ml-5 text-[#776B5D] text-[15px] font-bold md:mx-2">Pages</a>
+    </div>
+    <div class="header-button justify-self-end md:justify-center hidden sm:block">
+      <button class="login    bg-[#FAEED1] text-[#776B5D] border-none text-[15px] font-bold mx-[15px] p-[5px 10px] hover:bg-[#776B5D] hover:text-[#FAEED1]">Login</button>
+      <button class="register bg-[#FAEED1] text-[#776B5D] border-none text-[15px] font-bold mx-[15px] p-[5px 10px] hover:bg-[#776B5D] hover:text-[#FAEED1]">Register</button>
+    </div>
+</div>
+
+<div class="main-box grid grid-cols-2 w-[1000px] h-[600px] mx-auto my-auto mt-[20px] gap-x-[10px]">
+  <div class="image-left col-span-1 h-[600px] w-full relative">
+    <img src="image/cat_one.jpg" class="pic h-full w-full">
+        <p class="cat1      absolute top-[20px] left-[50px] text-[35px] font-bold text-[#5C4033] hidden sm:block">Ocean</p>
+        <p class="cat1-read absolute top-[70px] left-[50px] text-[15px] font-bold text-[#5C4033] hidden sm:block"><a href="#">Read More</a></p>
+  </div>
+  <div class="image-right col-span-1 h-[299px]">
+    <img src="https://hips.hearstapps.com/hmg-prod/images/beautiful-smooth-haired-red-cat-lies-on-the-sofa-royalty-free-image-1678488026.jpg" class="pic2">
+        <p class="cat2      absolute top-[90px] left-[800px] text-[35px]  font-bold text-[#5C4033] hidden sm:block">Blue</p>
+        <p class="cat2-read absolute top-[140px] left-[800px] text-[15px] font-bold text-[#5C4033] hidden sm:block"><a href="#">Read More</a></p>
+    <div class="image-right-bottom col-span-2 grid grid-cols-2 h-[267px] gap-x-[10px] gap-y-[10px]">
+      <img src="https://www.shutterstock.com/image-photo/funny-cat-flying-photo-playful-600nw-2315020963.jpg" class="pic3 h-full w-full">
+        <p class="cat3      absolute top-[430px] left-[920px] text-[25px] font-bold text-[#FAEED1] hidden sm:block">Winter</p>
+        <p class="cat3-read absolute top-[480px] left-[920px] text-[15px] font-bold text-[#FAEED1] hidden sm:block"><a href="#">Read More</a></p>
+      <img src="https://www.shutterstock.com/image-photo/funny-cat-flying-photo-playful-600nw-2315020963.jpg" class="pic4 h-full w-full">
+        <p class="cat4      absolute top-[430px] left-[1160px] text-[25px] font-bold text-[#FAEED1] hidden sm:block">Summer</p>
+        <p class="cat4-read absolute top-[480px] left-[1160px] text-[15px] font-bold text-[#FAEED1] hidden sm:block"><a href="#">Read More</a></p>
+    </div>
+  </div>
+</div>
+</body>
+</html>
